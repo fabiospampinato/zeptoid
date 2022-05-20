@@ -5,7 +5,7 @@ import RNG from 'uint-rng';
 
 /* HELPERS */
 
-const DEC2HEX = new Array ( 256 ).fill ( 0 ).map ( ( _, idx ) => idx.toString ( 16 ).padStart ( 2, '0' ) );
+const DEC2HEX = Array.from ( { length: 256 }, ( _, idx ) => idx.toString ( 16 ).padStart ( 2, '0' ) );
 
 /* MAIN */
 
