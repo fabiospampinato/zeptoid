@@ -7,9 +7,15 @@ const re = /^[0-9a-f]{32}$/;
 
 const is = ( str: string ): boolean => {
 
-  if ( str.length !== 32 ) return false;
+  if ( str.length !== 32 ) {
 
-  return re.test ( str );
+    return false;
+
+  } else {
+
+    return re.test ( str );
+
+  }
 
 };
 
