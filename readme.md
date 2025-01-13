@@ -16,7 +16,7 @@ Compared to [`nanoid`](https://github.com/ai/nanoid) there are the following dif
 ## Install
 
 ```sh
-npm install --save zeptoid
+npm install zeptoid
 ```
 
 ## Usage
@@ -24,13 +24,13 @@ npm install --save zeptoid
 ```ts
 import zeptoid, {is} from 'zeptoid';
 
-// Generate ids
+// Let's generate ids
 
 zeptoid (); // => 'aceee829076f33f6626a93ad1fcca776'
 zeptoid (); // => '39a07eda327e5b52f903d06303ca97be'
 zeptoid (); // => '0c1a4d3f273505565a380022fda07edd'
 
-// Check if a string is a zeptoid or not
+// Let's check if a string is a zeptoid or not
 
 is ( zeptoid () ); // => true
 is ( 'something' ); // => false
