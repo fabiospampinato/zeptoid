@@ -2,6 +2,7 @@
   "name": "zeptoid",
   "repository": "github:fabiospampinato/zeptoid",
   "description": "A tiny isomorphic fast function for generating a cryptographically random hex string.",
+  "license": "MIT",
   "version": "1.0.1",
   "type": "module",
   "sideEffects": false,
@@ -29,12 +30,12 @@
     "hex"
   ],
   "dependencies": {
-    "uint-rng": "^1.1.0"
+    "uint-rng": "^1.2.1"
   },
   "devDependencies": {
     "benchloop": "^2.1.1",
-    "fava": "^0.2.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
