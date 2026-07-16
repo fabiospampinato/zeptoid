@@ -2,7 +2,7 @@
 
 A tiny isomorphic fast function for generating a cryptographically random hex string.
 
-Accoding to [this](https://zelark.github.io/nano-id-cc) calculator one would have to generate ids at a rate of 1 billion per second for ~83 years to have a 1% probability of finding a collision.
+According to [this](https://zelark.github.io/nano-id-cc) calculator one would have to generate ids at a rate of 1 billion per second for ~83 years to have a 1% probability of finding a collision.
 
 ## Comparison
 
